@@ -16,7 +16,7 @@ const App = () => {
   const joinRoom = async (user, room) => {
     try {
       const connection = new HubConnectionBuilder()
-        .withUrl('https://chatappsignalrserver.azurewebsites.net/message')
+        .withUrl('https://167.71.9.230/message')
         .configureLogging(LogLevel.Information)
         .build();
 
